@@ -5,16 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculatrice de Pourboires</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div>
+  <div class="container">
     <h1>achraf benchrifa</h1>
-    <form>
+    <form id="tip-form">
       <label for="montant">Montant de la note :</label>
-      <input type="number" placeholder="Entrez le montant">
+      <input type="number" id="montant" placeholder="Entrez le montant" step="0.01">
     </form>
-    <p >Le pourboire est: </p>
+    <p id="resultat">Le pourboire est:</p>
   </div>
 </body>
 
